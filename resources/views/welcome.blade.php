@@ -21,7 +21,9 @@
     <div id="header-container">
         <header>
             <div class="flex container">
-                <a id="logo" href="#">INGE DOT COM</a>
+                <a id="logo" href="#">
+                    <img class="img-uta" src="{{ asset('img/uta sin fondo.png') }}" alt="Logo UTA">
+                </a>
                 <nav>
                     <button id="nav-toggle" class="hamburger-menu">
                         <span class="strip"></span>
@@ -124,6 +126,51 @@
     
                     </div>
                 </div>
+
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0430/5489/1157/products/Disenosintitulo-2022-05-20T125800.138_900x.png?v=1653069537" alt="Property 1" />
+                    <div class="dulces-detalles">
+                        <p class="price">$2.50</p>
+                        <span class="beds">Paleta de la rosa</span>
+    
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://surtitienda.vteximg.com.br/arquivos/ids/188876-2000-2000/00025046150137.1.jpg?v=637618265999730000" alt="Property 1" />
+                    <div class="dulces-detalles">
+                        <p class="price">$5.00</p>
+                        <span class="beds">Bocadin</span>
+    
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkI3g2fvP9hclVEO_Vha2Np_1V2j2LhPV5Ow&usqp=CAU" alt="Property 1" />
+                    <div class="dulces-detalles">
+                        <p class="price">$2.00</p>
+                        <span class="beds">Orbit</span>
+    
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://candymania.mx/wp-content/uploads/2021/02/vuala-switch.png" alt="Property 1" />
+                    <div class="dulces-detalles">
+                        <p class="price">$6.00</p>
+                        <span class="beds">Vuala swich </span>
+    
+                    </div>
+                </div>
+
+              <div>
+                    <img src="https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750100027840L.jpg" alt="Property 1" />
+                    <div class="dulces-detalles">
+                        <p class="price">$16.00</p>
+                        <span class="beds">Paleta payaso </span>
+    
+                    </div>
+                </div>
             </div>
 
             <button class="rounded">Ver todos los dulces disponibles</button>
@@ -137,37 +184,37 @@
 
             <div class="flex">
                 <div class="card">
-                    <img src="{{ asset('img/Yo.jpg') }}" alt="mi foto">
+                    <img id="yop" src="{{ asset('img/Yo.jpg') }}" alt="mi foto">
                     <h3>Ulises Martínez</h3>
                     <p>Desarrollador de La FLDSMDFR</p>
                 </div>
 
                 <div class="card">
-                    <img src="/img/Yo.jpg" alt="Realtor 1" />
+                    <img id="yop" src="/img/Yo.jpg" alt="Realtor 1" />
                     <h3>Ulises Martínez</h3>
                     <p>Analista de La FLDSMDFR</p>
                 </div>
 
                 <div class="card">
-                    <img src="/img/Yo.jpg" alt="Realtor 1" />
+                    <img id="yop" src="/img/Yo.jpg" alt="Realtor 1" />
                     <h3>Ulises Martínez</h3>
                     <p>Hacker de La FLDSMDFR</p>
                 </div>
 
                 <div class="card">
-                    <img src="/img/Yo.jpg" alt="Realtor 1" />
+                    <img id="yop" src="/img/Yo.jpg" alt="Realtor 1" />
                     <h3>Ulises Martínez</h3>
                     <p>Contador de La FLDSMDFR</p>
                 </div>
 
                 <div class="card">
-                    <img src="/img/Yo.jpg" alt="Realtor 1" />
+                    <img id="yop" src="/img/Yo.jpg" alt="Realtor 1" />
                     <h3>Ulises Martínez</h3>
                     <p>Administrador y mercadologo de La FLDSMDFR</p>
                 </div>
 
                 <div class="card">
-                    <img src="/img/Yo.jpg" alt="Realtor 1" />
+                    <img id="yop" src="/img/Yo.jpg" alt="Realtor 1" />
                     <h3>Ulises Martínez</h3>
                     <p>Inversionista #1 de La FLDSMDFR</p>
                 </div>
